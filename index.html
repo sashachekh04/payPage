@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+   <section class="header">
+      <div class="container">
+         <div>Pay invoice</div>
+      </div>
+   </section>
+   <section class="pay">
+      <div class="container">
+         <div class="pay__wrapper">
+            <div class="pay__standart">
+               <img src="icons/mastercard.svg" alt="mastercard">
+               <img src="icons/visa.svg" alt="visa">
+            </div>
+            <div class="pay__amount">
+               <div class="amount__item">
+                  <span>Payment amount</span>
+                  <div class="amount">$500.00</div>
+               </div>
+               <div class="amount__item">
+                  <button class="edit__btn">Edit</button>
+               </div>
+            </div>
+            <form action="" class="form">
+               <div class="subtitle">Name on card</div>
+               <input type="text" class="input__pay">
+               <div class="subtitle">Card number</div>
+               <input type="text" placeholder="XXXX  XXXX  XXXX  XXXX" class="input__pay input__img" id="inp">
+               <img src="" alt="" class="standart__logo">
+               <div class="inputs__wrapper">
+                  <div class="inputs__item">
+                     <div class="subtitle">Expiry Date</div>
+                     <input type="text" placeholder="MM/YY"  class="input__pay input-small" id="expiryDate" placeholder="MM/YY">
+                  </div>
+                  <div class="inputs__item">
+                     <div class="subtitle">Security code</div>
+                     <input type="password" maxlength="3" class="input__pay input-small" placeholder="XXX">
+                  </div>
+               </div>
+               <div class="subtitle">ZIP/Postal code</div>
+               <input type="text" class="input__pay">
+               <button class="btn">Pay $500.00</button>
+            </form>
+         </div>
+      </div>
+   </section>
+   <div class="thanks">
+      <div class="container">
+         <div class="thanks__wrapper">
+            <div class="thanks__header">
+               <div>Card <span class="card">4242</span></div>
+               <img src="icons/visa.svg" alt="visa" class="thanks__img">
+            </div>
+            <div class="thanks__title">Payment made</div>
+            <button class="thanks__btn modal_btn">OK</button>
+         </div>
+      </div>
+   </div>
+   <div class="replishment">
+      <div class="container">
+         <div class="replishment__wrapper">
+            <div class="replishment__title">Replenishment of the card</div>
+            <div class="replishment__subtitle">enter the amount of replenishment</div>
+            <div class="replishment__sum">
+               <input type="text" class="input__pay input__modal"> 
+               <span class="dollar">$</span>
+            </div>
+            <button class="replishment__btn modal_btn">OK</button>
+         </div>
+      </div>
+   </div>
+   <script src="js/main.js"></script>
+</body>
+</html>
