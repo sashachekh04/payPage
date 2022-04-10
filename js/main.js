@@ -15,17 +15,13 @@ window.addEventListener("DOMContentLoaded", () => {
       icon.src = "./icons/mastercard.svg";
       icon.style.display = "block";
     } else {
-      e.target.classList.add("input_red")
       icon.style.display = "none";
     }
   });
 
   input.addEventListener("keydown", (e) => {
-    
-    if(e.key === "Backspace" && input.value.length - 2 <= 0 && input.classList.contains("input_red") ) {
-      input.classList.remove("input_red") 
-    } else if(e.key === "Backspace" && input.value.length - 2 <= 0 && input.classList.contains("input_green")) {
-      input.classList.remove("input__green")
+    if(e.key === "Backspace" ) {
+      e.target.classList.remove("input_green")
     }
 
     if (
