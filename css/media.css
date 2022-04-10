@@ -1,0 +1,277 @@
+@media (max-width: 1140px) {
+   .container{
+      width: 750px;
+   }
+   .total__wrapper{
+      display: none;
+   }
+   .total_bottom__wrapper{
+      display: block;
+      margin: auto;
+      margin-top: 50px;
+      width: 445px;
+      height: 210px;
+      padding-top: 10px;
+   }
+   .btn_blue{
+      margin-top: 10px;
+   }
+   .total_bottom__text{
+      margin-top: 10px;
+      font-size: 17px;
+   }
+   .total_bottom__subtext {
+      width: 445px;
+  }
+  .total_bottom__header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 365px
+  }
+   .order__price{
+      width: 850px;
+   }
+   .total__wrapper{
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 500px;
+      height: 215px;
+      border: none;
+      box-shadow: 1px 2px 3px 5px rgba(54, 53, 53, 0.828);
+      padding-top: 23px;
+   }
+   .total__header{
+      flex-direction: row;
+      align-items: center;
+      width: 370px;
+      margin: auto;
+      
+   }
+   .total__subtext{
+      width: 500px;
+   }
+   .data__input{
+      margin-top: 0;
+      margin-bottom: 10px;
+   }
+   .footer__wrapper{
+      width: 700px;
+   }
+   .form__item{
+      height: 150px;
+   }
+   .data__input{
+      margin-top: 20px;   
+   }
+
+}
+@media (max-width: 969px) {
+   .order__price{
+      width: 650px;
+   }
+   .footer__wrapper{
+      width: 700px;
+   }
+   .verify__wrapper{
+      width: 600px;
+   }
+   .pay{
+      width: auto;
+   }
+}
+@media (max-width: 769px) {
+   .container{
+      width: 485px;
+   }
+   .order__price{
+      width: 480px;
+   }
+   .verify__wrapper{
+      width: 520px;
+   }
+   .footer__wrapper{
+      width: 470px;
+   }
+   .price__text{
+      margin-left: 15px;
+      width: 400px;
+   }
+   .verify__wrapper{
+      width: 445px;
+   }
+   .input_long{
+      width: 385px;
+   }
+   .form__wrapper {
+      width: 490px;
+   }
+   .data__input{
+      width: 200px;
+      margin-top: 20px;
+   }
+   .data__subtitle{
+      margin-top: 0px;
+   }
+   .wrapper__item{
+      height: 50px;
+   }
+   .data__title{
+      margin-bottom: 10px;
+   }
+   .wrapper__block{
+      display: block;
+   }
+   .wrapper__text{
+      display: none;
+   }
+   .total__wrapper{
+      width: 440px;
+      height: 200px;
+      text-align: center;
+   }
+   .total__subtext{
+      width: 445px;
+   }
+   .footer{
+      margin-top: 400px;
+   }
+   .total_bottom__wrapper{
+      margin-top: 50px;
+   }
+}
+@media (max-width: 512px) {
+   .container{
+      width: 350px;
+   }
+   .order__title{
+      font-size: 17px;
+      font-weight: 600;
+   }
+   .order__price{
+      width: 100%;
+      height: 62px;
+   }
+   .price__wrapper{
+      width: 175px;
+   }
+   .price__text{
+      margin-top: 0;
+      width: 85%;
+   }
+   .price__wrapper div{
+      font-size: 13px;
+   }
+   .price{
+      font-size: 13px;
+   }
+   .declaration__name{
+      font-size: 12px;
+      margin-top: 0;
+   }
+   .verify{
+      width: 100%;
+   }
+   .verify__wrapper{
+      width: 90%;
+   }
+   .item__block{
+      font-size: 11px;
+   }
+   .item__block_thin{
+      font-size: 11px;
+   }
+   .total__wrapper{
+      width: 290px;
+   }
+   .data{
+      width: 100%;
+   }
+   .data__input{
+      width: 120px;
+   }
+   .data__form{
+      width: 300px;
+   }
+   .form__wrapper{
+      width: 100%;
+   }
+   .wrapper__block{
+      width: 70%;
+   }
+   .total_bottom__wrapper{
+      width: 300px;
+      margin-bottom: 30px;
+   }
+   .total_bottom__title{
+      font-size: 17px;
+   }
+   .total_bottom__header{
+      width: 225px;
+   }
+   .price{
+      font-size: 17px;
+   }
+   .total_bottom__subtext{
+      width: 100%;
+   }
+   .price__wrapper{
+      width: 195px;
+   }
+   .footer__wrapper{
+      width: 100%
+   }
+   .wrapper__block{
+      width: 100%;
+   }
+   .thanks__wrapper{
+      width: 280px;
+   }
+   .replishment__wrapper {
+      width: 295px
+   }
+   .replishment__title{
+      font-size: 18px;
+   }
+   .replishment__subtitle{
+      font-size: 13px;
+      margin-top: 0;
+   }
+   .replishment__sum{
+      margin-top: 5px;
+   }
+   .pay{
+      width: 350px;
+      margin: auto;
+   }
+   .pay__wrapper{
+      width: 350px;
+      margin: auto;
+   }
+   .pay__standart{
+      width: 230px;
+   }
+   .pay__amount{
+      width: 350px;
+   }
+   .form{
+      width: 350px;
+   }
+   .input__pay{
+      width: 300px;
+   }
+   .input-small{
+      width: 100px;
+   }
+   .inputs__wrapper{
+      width: 95%;
+   }
+   .input__pay{
+      font-size: 17px;
+   }
+   .standart__logo{
+      transform: translate(530%, -130%);
+   }
+}
