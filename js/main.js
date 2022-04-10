@@ -22,14 +22,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
   input.addEventListener("keydown", (e) => {
     
-    if(e.key === "Backspace" && input.value.length - 2 <= 0 ) {
-      // console.log(true)
-      // console.log(input.value.length)
-      // console.log(e.target.value)
-      console.log(e.target.value)
-      console.log(e.target.value.length)
-      input.classList.remove("input_red")
-      input.classList.remove("input_green")
+    if(e.key === "Backspace" && input.value.length - 2 <= 0 && input.classList.contains("input_red") ) {
+      input.classList.remove("input_red") 
+    } else if(e.key === "Backspace" && input.value.length - 2 <= 0 && input.classList.contains("input_green")) {
+      input.classList.remove("input__green")
     }
 
     if (
